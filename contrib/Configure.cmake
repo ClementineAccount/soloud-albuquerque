@@ -1,13 +1,13 @@
 include (OptionDependentOnPackage)
 include (PrintOptionStatus)
 
-option (SOLOUD_DYNAMIC "Set to ON to build dynamic SoLoud" OFF)
+option (SOLOUD_DYNAMIC "Set to ON to build dynamic SoLoud" ON)
 print_option_status (SOLOUD_DYNAMIC "Build dynamic library")
 
-option (SOLOUD_STATIC "Set to ON to build static SoLoud" ON)
+option (SOLOUD_STATIC "Set to ON to build static SoLoud" OFF)
 print_option_status (SOLOUD_STATIC "Build static library")
 
-option (SOLOUD_C_API "Set to ON to include the C API" OFF)
+option (SOLOUD_C_API "Set to ON to include the C API" ON)
 print_option_status (SOLOUD_C_API "Build C API")
 
 # TODO:
